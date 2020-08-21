@@ -1,0 +1,60 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+
+  max-width: 800px;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 16px;
+
+  text-align: center;
+}
+
+.passphrase {
+  margin: 100px 0;
+  font-size: 30px;
+}
+
+button {
+  padding: 15px;
+  border: none;
+  display: block;
+  margin: auto;
+  border-radius: 2px;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="number"] {
+  font-size: 18px;
+  border: 1px solid #0277BD;
+  padding: 10px;
+}
+
+.is-with-gradient {
+  transition: 0.5s;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  background-size: 200% auto;
+  color: #fff;
+
+  /*background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%);*/
+  background-image: linear-gradient(to right, #29B6F6 0%, #039BE5 51%, #0277BD 100%);
+
+  &:hover,
+  &:focus {
+    background-position: right center;
+  }
+}
+
+.filters {
+  margin: 30px 0;
+}
